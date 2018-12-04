@@ -1,0 +1,390 @@
+
+ul.ibm-twisty>li a.ibm-twisty-trigger{
+  color: #DB2780;
+}
+ul.ibm-twisty>li a.ibm-twisty-trigger:hover{
+  color: #DB2780;
+}
+#absolutist-2 > div > div > div > h2 > a{
+  border: none !important;
+}
+#situationalist-2 > div > div > div > h2 > a{
+  border: none !important;
+}
+#exceptionalist-2 > div > div > div > h2 > a{
+  border: none !important;
+}
+.intro-text-n{
+    font-family:IBM Plex Mono Text-V01-6A4gjScM !important;
+    font-weight:400 !important;
+  }
+.usa_location{
+  -webkit-transform: translate(9vw,0vh);
+  -ms-transform: translate(9vw,0vh);
+  transform: translate(9vw,0vh);
+}
+/*.br_location{
+  -webkit-transform: translate(21vw,43vh);
+  -ms-transform: translate(21vw,43vh);
+  transform: translate(21vw,43vh);
+}
+.jp_location{
+  -webkit-transform: translate(64vw,30vh);
+  -ms-transform: translate(64vw,30vh);
+  transform: translate(64vw,30vh);
+}
+.germany_location{
+  -webkit-transform: translate(37vw,-17vh);
+  -ms-transform: translate(37vw,-17vh);
+  transform: translate(37vw,-17vh);
+}*/
+  .intro-text-s{
+    font-family:IBM Plex Mono Text-V01-6A4gjScM !important;
+    font-weight:400 !important;
+  }
+  .background-gray-7 {
+    background-color: #2A3436;
+  }
+  .background-gray-8 {
+    background-color: #21292B;
+  }
+  .textcolor-blue-1 {
+    color: #93C2FE;
+  }
+  .textcolor-blue-2 {
+    color: #69A6FF;
+  }
+  .textcolor-blue-3 {
+    color: #003AC8;
+  }
+  .textcolor-blue-4 {
+    color: #000F5E;
+  }
+  .border-blue-3 {
+    border-color: #003AC8;
+  }
+  .border-blue-4 {
+    border-color: #000F5E;
+  }
+  .blue-1, .blue-2, .blue-3, .blue-4 {
+    border: 3px solid transparent;
+  }
+  .blue-1 {
+    background: #000f5c;
+  }
+  .blue-1:hover, .blue-1:hover .ibm-card {
+    border-color: #000f5c;
+  }
+  .blue-1:hover .ibm-card .ibm-card__content {
+    color: #000f5c !important;
+  }
+  .blue-2 {
+    background: #003cc7;
+  }
+  .blue-2:hover, .blue-2:hover .ibm-card {
+    border-color: #003cc7;
+  }
+  .blue-2:hover .ibm-card .ibm-card__content {
+    color: #003cc7 !important;
+  }
+  .blue-3 {
+    background: #6ba9ff;
+  }
+  .blue-3:hover, .blue-3:hover .ibm-card {
+    border-color: #6ba9ff;
+  }
+  .blue-3:hover .ibm-card .ibm-card__content {
+    color: #6ba9ff !important;
+  }
+  .blue-4 {
+    background: #bad9ff;
+  }
+  .blue-4:hover, .blue-4:hover .ibm-card {
+    border-color: #bad9ff;
+  }
+  .blue-4:hover .ibm-card .ibm-card__content {
+    color: #bad9ff !important;
+  }
+  .blue-1 .ibm-card, .blue-2 .ibm-card, .blue-3 .ibm-card, .blue-4 .ibm-card {
+    background: none;
+  }
+  .no-background {
+    background: none;
+  }
+  .bege-background, .blue-background {
+    position: relative;
+    z-index: 1;
+  }
+  .bege-background:before, .blue-background:before {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 100%;
+    height: calc(100% + 120px);
+    width: 100%;
+    width: calc(100% + 120px);
+    left: -60px;
+    top: -60px;
+    z-index: -2;
+    pointer-events: none;
+  }
+  img {
+    position: relative;
+    z-index: 99;
+  }
+  .align-map-chart{
+    position: absolute;
+    bottom: -30px;
+    left: 46%;
+    font-weight: bold;
+
+  }
+  .bege-background:before {
+    background: #F3F0EE;
+  }
+  .blue-background:before {
+    background: #C1DBFF;
+  }
+  .rotating-chart {
+    position: relative;
+    z-index: 3;
+  }
+  .ibm-show-hide>h2 a::before{
+    z-index: 99;
+    border-radius: 50%;
+    border: solid 1px #000;
+    background-color: #000;
+    border-color: rgb(219, 39, 128);
+    color: rgb(219, 39, 128);
+  }
+  .ibm-show-hide>h2 a{
+    color: #fff;
+  }
+  .ibm-show-hide>h2 a.ibm-show-active{
+    color: #db2780;
+  }
+  .ibm-show-hide>h2 a:hover{
+    color: #db2780;
+  }
+  .chart-div{
+  position: absolute;
+   left:13px;
+    top: 33px;
+     background-color: rgb(34, 41, 45);
+     min-height: 200px;
+     height: 100%;
+     width: 100%;
+     min-width: 500px;
+      border: solid rgb(219, 39, 128) 1px;
+       animation-duration: 0.2s;
+       color: white;
+  }
+  .chart-div-2{
+  position: absolute;
+   left:13px;
+    top: -160px;
+     background-color: rgb(34, 41, 45);
+     min-height: 200px;
+     height: 100%;
+     width: 100%;
+     min-width: 500px;
+      border: solid rgb(219, 39, 128) 1px;
+       animation-duration: 0.2s;
+       color: white;
+  }
+  .chart-div-3{
+  position: absolute;
+   right: 243px;
+    top: -160px;
+     background-color: rgb(34, 41, 45);
+     min-height: 200px;
+     height: 100%;
+     width: 100%;
+     min-width: 500px;
+      border: solid rgb(219, 39, 128) 1px;
+       animation-duration: 0.2s;
+       color: white;
+  }
+  .chart-div-3-medium{
+  position: absolute;
+   right: 243px;
+    top: 0px;
+     background-color: rgb(34, 41, 45);
+     min-height: 200px;
+     height: 100%;
+     width: 100%;
+     min-width: 484px;
+      border: solid rgb(219, 39, 128) 1px;
+       animation-duration: 0.2s;
+       color: white;
+  }
+  .b-chart{
+    top: 3.4em !important;
+  }
+  .rotating-chart img {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+  }
+  .map-chart img {
+    width: 100%;
+    height: auto;
+  }
+  .map-chart div{
+    position: absolute;
+      width: 15%;
+       top: 1.4em;
+  }
+  .map-chart p{
+    position: absolute;
+       top: 1.3em;
+       left:1.1em;
+  }
+  .title-chart{
+    top: 5.5em !important;
+    font-size: .89em;
+  }
+  .maps .ibm-tabs-content {
+    background: url(img/world-map-half.png) no-repeat top;
+    background-size: 100% auto;
+    position: relative;
+  }
+  .maps .ibm-tabs-content img {
+    display: block;
+    padding: 0 0.1%;
+    box-sizing: border-box;
+    margin-left: -3px;
+    padding-top: 0.3%;
+    padding-bottom: 40px;
+  }
+  .maps .ibm-tabs-content .floating-text {
+    position: absolute;
+    left: 70px;
+    top: 0px;
+    z-index: 100;
+  }
+  .child-first-event{
+    padding-top: 12.75em;
+    padding-bottom:12.75em;
+  }
+  .child-first-event p{
+    font-size: ;
+  }
+  .ibm-icononly.ibm-alternate a:not(:last-child) {
+    margin-right: 28px;
+  }
+  .authors a .ibm-mo__image div img, .authors a {
+    display: block;
+  }
+  .authors a:hover .ibm-mo__image div {
+    position: relative;
+  }
+  .authors a .ibm-mo__image div:after {
+    content: '';
+    display: none;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(18,66,185,0.35);
+    z-index: 100;
+  }
+  .authors a:hover .ibm-mo__image div:after {
+    display: block;
+  }
+  .authors a:hover {
+    text-decoration: none;
+  }
+  .ibm-tabs {
+    background: none;
+    position: relative;
+    z-index: 2;
+  }
+  .shtitle {
+    color: #FFFFFF !important;
+  }
+  .chart-mobile {
+    position: relative;
+  }
+
+  @media screen and (min-width: 760px) and (max-width: 1040px) {
+    .answers {
+      font-size: 18px;
+    }
+  }
+  @media screen and (min-width: 1000px) and (max-width: 1040px) {
+    .text-fix {
+      font-size: 1rem;
+    }
+  }
+
+
+  @media screen and (min-width: 1381px) and (max-width: 1480px){
+    .germany_location{
+      top: -25px;
+      left: 550px;
+    }
+    .jp_location{
+      top: 100px;
+      left: 1000px;
+    }
+    .br_location{
+      top: 280px;
+      left: 330px;
+    }
+  }
+
+  @media screen and (min-width: 1241px) and (max-width: 1380px){
+    .germany_location{
+      top: -70px;
+      left: 480px;
+    }
+    .jp_location{
+      top: 50px;
+      left: 880px;
+    }
+    .br_location{
+      top: 200px;
+      left: 270px;
+    }
+  }
+
+
+  @media screen and (min-width: 1001px) and (max-width: 1240px){
+    .germany_location{
+      top: -80px;
+      left: 450px;
+    }
+    .jp_location{
+      top: 30px;
+      left: 840px;
+    }
+    .br_location{
+      top: 200px;
+      left: 270px;
+    }
+  }
+
+  @media screen and (min-width: 761px) and (max-width: 1000px){
+    .germany_location{
+      top: -130px;
+      left: 350px;
+    }
+    .jp_location{
+      top: -30px;
+      left: 640px;
+    }
+    .br_location{
+      top: 90px;
+      left: 190px;
+    }
+    .usa_location{
+      top: -30px;
+      left: 0;
+    }
+  }
